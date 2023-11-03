@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="root" prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.proyectoestructuras.MenuController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Label fx:id="lblUsuario" text="Bienvenido:" textAlignment="CENTER" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+         <children>
+            <Label fx:id="lblUsuario1" text="Nombre:" textAlignment="CENTER" />
+            <TextField fx:id="txtNombre" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <ScrollPane fx:id="direcciones" prefHeight="200.0" prefWidth="200.0" />
+      <ScrollPane fx:id="emails" prefHeight="200.0" prefWidth="200.0" />
+      <ScrollPane fx:id="redes" prefHeight="200.0" prefWidth="200.0" />
+      <ScrollPane fx:id="fotos" prefHeight="200.0" prefWidth="200.0" />
+      <ScrollPane fx:id="fechas" prefHeight="200.0" prefWidth="200.0" />
+      <ScrollPane fx:id="telefonos" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>
