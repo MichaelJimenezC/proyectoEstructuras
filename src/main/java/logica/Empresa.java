@@ -13,7 +13,7 @@ public class Empresa extends Contacto{
     private String numeroRegistro;
     private String tipoEmpresa;
 
-    public Empresa(String razonSocial, String numeroRegistro, String tipoEmpresa, String nombre, DoubleLinkedList<String> direcciones, DoubleLinkedList<String> emails, DoubleLinkedList<String> redes, DoubleLinkedList<String> fotos, DoubleLinkedList<String> fechas, DoubleLinkedList<String> telefonos, DoubleLinkedList<String> contactosRelacionados) {
+    public Empresa(String razonSocial, String numeroRegistro, String tipoEmpresa, String nombre, DoubleLinkedList<String[]> direcciones, DoubleLinkedList<String[]> emails, DoubleLinkedList<String[]> redes, DoubleLinkedList<String[]> fotos, DoubleLinkedList<String[]> fechas, DoubleLinkedList<String[]> telefonos, DoubleLinkedList<String[]> contactosRelacionados) {
         super(nombre, direcciones, emails, redes, fotos, fechas, telefonos, contactosRelacionados);
         this.razonSocial = razonSocial;
         this.numeroRegistro = numeroRegistro;

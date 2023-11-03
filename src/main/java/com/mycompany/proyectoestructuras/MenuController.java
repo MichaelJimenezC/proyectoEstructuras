@@ -19,7 +19,7 @@ import javafx.scene.layout.*;
 public class MenuController implements Initializable {
 
     @FXML
-    private AnchorPane root;
+    private VBox root;
     @FXML
     private TextField txtNombre;
     @FXML

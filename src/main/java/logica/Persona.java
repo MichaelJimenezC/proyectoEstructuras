@@ -16,7 +16,7 @@ public class Persona extends Contacto{
     private String ocupacion;
     private String Nacionalidad;
 
-    public Persona(String apellido, String cedula, String genero, String fechaNacimiento, String ocupacion, String Nacionalidad, String nombre, DoubleLinkedList<String> direcciones, DoubleLinkedList<String> emails, DoubleLinkedList<String> redes, DoubleLinkedList<String> fotos, DoubleLinkedList<String> fechas, DoubleLinkedList<String> telefonos, DoubleLinkedList<String> contactosRelacionados) {
+    public Persona(String apellido, String cedula, String genero, String fechaNacimiento, String ocupacion, String Nacionalidad, String nombre, DoubleLinkedList<String[]> direcciones, DoubleLinkedList<String[]> emails, DoubleLinkedList<String[]> redes, DoubleLinkedList<String[]> fotos, DoubleLinkedList<String[]> fechas, DoubleLinkedList<String[]> telefonos, DoubleLinkedList<String[]> contactosRelacionados) {
         super(nombre, direcciones, emails, redes, fotos, fechas, telefonos, contactosRelacionados);
         this.apellido = apellido;
         this.cedula = cedula;
