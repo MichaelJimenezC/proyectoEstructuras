@@ -2,9 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package logica;
+package Logica;
 
 /**
+ *
+ * @author marle
+ *//**
  *
  * @author Michael
  */
@@ -76,9 +79,5 @@ public class Persona extends Contacto{
     public void setNacionalidad(String Nacionalidad) {
         this.Nacionalidad = Nacionalidad;
     }
-
-   
-    
-    
     
 }
