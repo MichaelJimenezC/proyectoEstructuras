@@ -2,9 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package logica;
+package Logica;
 
-/**
+
+   /**
  *
  * @author Michael
  */
@@ -92,8 +93,9 @@ public class Contacto {
     public void setContactosRelacionados(DoubleLinkedList<String[]> contactosRelacionados) {
         this.contactosRelacionados = contactosRelacionados;
     }
-    
-    
    
-    
+   
+   
+   
+ 
 }
